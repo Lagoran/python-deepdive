@@ -28,3 +28,9 @@ print(my_list)
 
 print(hex(id(500)))
 print(hex(id(500)))
+
+a = [1,2,3]
+b = [1,2,3]
+
+print(a is b)
+print(a == b)

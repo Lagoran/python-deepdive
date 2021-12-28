@@ -79,3 +79,5 @@ print(r1.width)
 
 r1 = Rectangle(1, 10)
 r2 = Rectangle(2, 10)
+
+print(hex(id(r2)))

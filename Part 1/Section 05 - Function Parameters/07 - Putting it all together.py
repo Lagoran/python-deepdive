@@ -67,3 +67,4 @@ avg = calc_hi_lo_avg(1,2,3,4,5)
 print(avg)
 
 calc_hi_lo_avg(1,2,3,4,5,log_to_console=True)
+

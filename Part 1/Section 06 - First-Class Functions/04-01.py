@@ -11,3 +11,5 @@ print(sorted(l, key = lambda x : random.random()))
 print(sorted('1qwedvcdcdz', key = lambda x : random.random()))
 
 print(''.join(sorted('1qwedvcdcdz', key = lambda x : random.random())))
+
+print(ord('a'))

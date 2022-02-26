@@ -30,6 +30,16 @@ print(sorted(l, key = str.upper))
 
 d = {'def': 300, 'abc': 200, 'ghi': 100}
 
+for k in d :
+    print(d[k])
+
+
+fullnames_employees = list(map(lambda x: '{}'.format(d[x]), d))
+
+print(fullnames_employees)
+
+
+
 print(sorted(d))
 
 print(sorted(d, key = lambda k:d[k]))
@@ -41,4 +51,4 @@ print(sorted(l1, key = lambda k : k[-1], reverse=True))
 print(sorted(l1, key = lambda k : k[-1]))
 
 help(sorted)
-
+help(map)

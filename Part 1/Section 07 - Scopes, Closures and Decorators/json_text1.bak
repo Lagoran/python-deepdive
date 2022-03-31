@@ -1,0 +1,99 @@
+      "metadata" : {
+      "metadata" : {
+        "metricName" : "scm_role_state",
+        "metricName" : "scm_role_state",
+        "entityName" : "NodeManager (lxspkop046.at.inside)",
+        "entityName" : "NodeManager (lxspkop046.at.inside)",
+        "startTime" : "2022-03-16T09:39:59.248Z",
+        "startTime" : "2022-03-16T09:39:59.248Z",
+        "endTime" : "2022-03-16T09:44:59.248Z",
+        "endTime" : "2022-03-16T09:44:59.248Z",
+        "attributes" : {
+        "attributes" : {
+          "serviceType" : "XXXX",
+          "serviceType" : "XXXX",
+          "clusterDisplayName" : "Datalake_P01",
+          ""clusterDisplayName" : "XXX",
+          "hostId" : "cd86e9e0-7c7d-4aa3-a622-fe95b364208a",
+          "hostId" : "cd86e9e0-7c7d-4aa3-a622-fe95b364208a",
+          "active" : "true",
+          "active" : "true",
+          "serviceDisplayName" : "YARN (MR2 Included)",
+          "serviceDisplayName" : "YARN (MR2 Included)",
+          "serviceName" : "yarn",
+          "serviceName" : "yarn",
+          "roleType" : "NODEMANAGER",
+          "roleType" : "NODEMANAGER",
+          "version" : "CDH 6.3.3",
+          "version" : "CDH 6.3.3",
+          "hostname" : "lxspkop046.at.inside",
+          "hostname" : "lxspkop046.at.inside",
+          "entityName" : "yarn-NODEMANAGER-cda8db87d2594449b310e3dc9c4bbcf7",
+          "entityName" : "yarn-NODEMANAGER-cda8db87d2594449b310e3dc9c4bbcf7",
+          "clusterName" : "cluster",
+          "clusterName" : "cluster",
+          "roleName" : "yarn-NODEMANAGER-cda8db87d2594449b310e3dc9c4bbcf7",
+          "roleName" : "yarn-NODEMANAGER-cda8db87d2594449b310e3dc9c4bbcf7",
+          "roleConfigGroup" : "NodeManagerMoreMem_HW expansion_2021",
+          "roleConfigGroup" : "NodeManagerMoreMem_HW expansion_2021",
+          "category" : "ROLE",
+          "category" : "ROLE",
+          "rackId" : "/default"
+          "rackId" : "/default"
+        },
+        },
+        "unitNumerators" : [ "SCM role state" ],
+        "unitNumerators" : [ "SCM role state" ],
+        "unitDenominators" : [ ],
+        "unitDenominators" : [ ],
+        "expression" : "SELECT scm_role_state WHERE entityName = \"yarn-NODEMANAGER-cda8db87d2594449b310e3dc9c4bbcf7\" AND category = ROLE",
+        "expression" : "SELECT scm_role_state WHERE entityName = \"yarn-NODEMANAGER-cda8db87d2594449b310e3dc9c4bbcf7\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "RAW"
+        "rollupUsed" : "RAW"
+      },
+      },
+      "data" : [ {
+      "data" : [ {
+        "timestamp" : "2022-03-16T09:40:22.730Z",
+        "timestamp" : "2022-03-16T09:40:22.730Z",
+        "value" : 3.0,
+        "value" : 3.0,
+        "type" : "SAMPLE"
+        "type" : "SAMPLE"
+      }, {
+      }, {
+        "timestamp" : "2022-03-16T09:41:22.734Z",
+        "timestamp" : "2022-03-16T09:41:22.734Z",
+        "value" : 3.0,
+        "value" : 3.0,
+        "type" : "SAMPLE"
+        "type" : "SAMPLE"
+      }, {
+      }, {
+        "timestamp" : "2022-03-16T09:42:22.738Z",
+        "timestamp" : "2022-03-16T09:42:22.738Z",
+        "value" : 3.0,
+        "value" : 3.0,
+        "type" : "SAMPLE"
+        "type" : "SAMPLE"
+      }, {
+      }, {
+        "timestamp" : "2022-03-16T09:43:22.743Z",
+        "timestamp" : "2022-03-16T09:43:22.743Z",
+        "value" : 3.0,
+        "value" : 3.0,
+        "type" : "SAMPLE"
+        "type" : "SAMPLE"
+      }, {
+      }, {
+        "timestamp" : "2022-03-16T09:44:22.747Z",
+        "timestamp" : "2022-03-16T09:44:22.747Z",
+        "value" : 3.0,
+        "value" : 3.0,
+        "type" : "SAMPLE"
+        "type" : "SAMPLE"
+      } ]
+      } ]
+    }    }
